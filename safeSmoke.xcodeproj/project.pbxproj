@@ -12,6 +12,20 @@
 		0183B5811F115C1F0076A82B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0183B57F1F115C1F0076A82B /* Main.storyboard */; };
 		0183B5831F115C1F0076A82B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0183B5821F115C1F0076A82B /* Assets.xcassets */; };
 		0183B5861F115C1F0076A82B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0183B5841F115C1F0076A82B /* LaunchScreen.storyboard */; };
+		0183B6C01F115DBE0076A82B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0183B5901F115DBD0076A82B /* Bolts.framework */; };
+		0183B6C61F115DBE0076A82B /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0183B5971F115DBD0076A82B /* FBSDKCoreKit.framework */; };
+		0183B6C71F115DBE0076A82B /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0183B5981F115DBD0076A82B /* FBSDKLoginKit.framework */; };
+		0183B6CA1F115DBE0076A82B /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0183B59B1F115DBD0076A82B /* FBSDKShareKit.framework */; };
+		01C2B4971F116BEF00DA3A69 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 01C2B4921F116BEF00DA3A69 /* background.png */; };
+		01C2B4981F116BEF00DA3A69 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 01C2B4931F116BEF00DA3A69 /* Icon.png */; };
+		01C2B4991F116BEF00DA3A69 /* password.png in Resources */ = {isa = PBXBuildFile; fileRef = 01C2B4941F116BEF00DA3A69 /* password.png */; };
+		01C2B49A1F116BEF00DA3A69 /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = 01C2B4951F116BEF00DA3A69 /* title.png */; };
+		01C2B49B1F116BEF00DA3A69 /* userSignin.png in Resources */ = {isa = PBXBuildFile; fileRef = 01C2B4961F116BEF00DA3A69 /* userSignin.png */; };
+		01D6E1E41F117EE200E12345 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D6E1E31F117EE200E12345 /* SignUpViewController.swift */; };
+		01D6E1EA1F117F5500E12345 /* NanumBarunGothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01D6E1E61F117F5500E12345 /* NanumBarunGothic.ttf */; };
+		01D6E1EB1F117F5500E12345 /* NanumBarunGothicBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01D6E1E71F117F5500E12345 /* NanumBarunGothicBold.ttf */; };
+		01D6E1EC1F117F5500E12345 /* NanumBarunGothicLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01D6E1E81F117F5500E12345 /* NanumBarunGothicLight.ttf */; };
+		01D6E1ED1F117F5500E12345 /* NanumBarunGothicUltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01D6E1E91F117F5500E12345 /* NanumBarunGothicUltraLight.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +36,20 @@
 		0183B5821F115C1F0076A82B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0183B5851F115C1F0076A82B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0183B5871F115C1F0076A82B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0183B5901F115DBD0076A82B /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		0183B5971F115DBD0076A82B /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		0183B5981F115DBD0076A82B /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		0183B59B1F115DBD0076A82B /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		01C2B4921F116BEF00DA3A69 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../../GMF/background.png; sourceTree = "<group>"; };
+		01C2B4931F116BEF00DA3A69 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../../GMF/Icon.png; sourceTree = "<group>"; };
+		01C2B4941F116BEF00DA3A69 /* password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = password.png; path = ../../GMF/password.png; sourceTree = "<group>"; };
+		01C2B4951F116BEF00DA3A69 /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = title.png; path = ../../GMF/title.png; sourceTree = "<group>"; };
+		01C2B4961F116BEF00DA3A69 /* userSignin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = userSignin.png; path = ../../GMF/userSignin.png; sourceTree = "<group>"; };
+		01D6E1E31F117EE200E12345 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		01D6E1E61F117F5500E12345 /* NanumBarunGothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumBarunGothic.ttf; sourceTree = "<group>"; };
+		01D6E1E71F117F5500E12345 /* NanumBarunGothicBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumBarunGothicBold.ttf; sourceTree = "<group>"; };
+		01D6E1E81F117F5500E12345 /* NanumBarunGothicLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumBarunGothicLight.ttf; sourceTree = "<group>"; };
+		01D6E1E91F117F5500E12345 /* NanumBarunGothicUltraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumBarunGothicUltraLight.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +57,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0183B6C61F115DBE0076A82B /* FBSDKCoreKit.framework in Frameworks */,
+				0183B6CA1F115DBE0076A82B /* FBSDKShareKit.framework in Frameworks */,
+				0183B6C71F115DBE0076A82B /* FBSDKLoginKit.framework in Frameworks */,
+				0183B6C01F115DBE0076A82B /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +70,11 @@
 		0183B56F1F115C1F0076A82B = {
 			isa = PBXGroup;
 			children = (
+				01D6E1E51F117F5500E12345 /* Nanum */,
+				01C2B4911F116BC000DA3A69 /* image */,
 				0183B57A1F115C1F0076A82B /* safeSmoke */,
 				0183B5791F115C1F0076A82B /* Products */,
+				0183B58D1F115DBD0076A82B /* FacebookSDKs-iOS-4 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +95,45 @@
 				0183B5821F115C1F0076A82B /* Assets.xcassets */,
 				0183B5841F115C1F0076A82B /* LaunchScreen.storyboard */,
 				0183B5871F115C1F0076A82B /* Info.plist */,
+				01D6E1E31F117EE200E12345 /* SignUpViewController.swift */,
 			);
 			path = safeSmoke;
+			sourceTree = "<group>";
+		};
+		0183B58D1F115DBD0076A82B /* FacebookSDKs-iOS-4 */ = {
+			isa = PBXGroup;
+			children = (
+				0183B5901F115DBD0076A82B /* Bolts.framework */,
+				0183B5971F115DBD0076A82B /* FBSDKCoreKit.framework */,
+				0183B5981F115DBD0076A82B /* FBSDKLoginKit.framework */,
+				0183B59B1F115DBD0076A82B /* FBSDKShareKit.framework */,
+			);
+			name = "FacebookSDKs-iOS-4";
+			path = "../../../Documents/FacebookSDKs-iOS-4";
+			sourceTree = "<group>";
+		};
+		01C2B4911F116BC000DA3A69 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				01C2B4921F116BEF00DA3A69 /* background.png */,
+				01C2B4931F116BEF00DA3A69 /* Icon.png */,
+				01C2B4941F116BEF00DA3A69 /* password.png */,
+				01C2B4951F116BEF00DA3A69 /* title.png */,
+				01C2B4961F116BEF00DA3A69 /* userSignin.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		01D6E1E51F117F5500E12345 /* Nanum */ = {
+			isa = PBXGroup;
+			children = (
+				01D6E1E61F117F5500E12345 /* NanumBarunGothic.ttf */,
+				01D6E1E71F117F5500E12345 /* NanumBarunGothicBold.ttf */,
+				01D6E1E81F117F5500E12345 /* NanumBarunGothicLight.ttf */,
+				01D6E1E91F117F5500E12345 /* NanumBarunGothicUltraLight.ttf */,
+			);
+			name = Nanum;
+			path = "../../../Downloads/나눔바른고딕";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +196,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01D6E1EB1F117F5500E12345 /* NanumBarunGothicBold.ttf in Resources */,
+				01C2B49B1F116BEF00DA3A69 /* userSignin.png in Resources */,
+				01C2B4991F116BEF00DA3A69 /* password.png in Resources */,
+				01D6E1ED1F117F5500E12345 /* NanumBarunGothicUltraLight.ttf in Resources */,
 				0183B5861F115C1F0076A82B /* LaunchScreen.storyboard in Resources */,
+				01C2B49A1F116BEF00DA3A69 /* title.png in Resources */,
+				01C2B4971F116BEF00DA3A69 /* background.png in Resources */,
+				01D6E1EC1F117F5500E12345 /* NanumBarunGothicLight.ttf in Resources */,
+				01D6E1EA1F117F5500E12345 /* NanumBarunGothic.ttf in Resources */,
+				01C2B4981F116BEF00DA3A69 /* Icon.png in Resources */,
 				0183B5831F115C1F0076A82B /* Assets.xcassets in Resources */,
 				0183B5811F115C1F0076A82B /* Main.storyboard in Resources */,
 			);
@@ -137,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01D6E1E41F117EE200E12345 /* SignUpViewController.swift in Sources */,
 				0183B57E1F115C1F0076A82B /* ViewController.swift in Sources */,
 				0183B57C1F115C1F0076A82B /* AppDelegate.swift in Sources */,
 			);
@@ -262,6 +344,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZESNLFKEBA;
+				FRAMEWORK_SEARCH_PATHS = "/Users/gimminseo/Documents/FacebookSDKs-iOS-4";
 				INFOPLIST_FILE = safeSmoke/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.minseo.safeSmoke;
@@ -275,6 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZESNLFKEBA;
+				FRAMEWORK_SEARCH_PATHS = "/Users/gimminseo/Documents/FacebookSDKs-iOS-4";
 				INFOPLIST_FILE = safeSmoke/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.minseo.safeSmoke;
@@ -302,6 +386,7 @@
 				0183B58C1F115C1F0076A82B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
